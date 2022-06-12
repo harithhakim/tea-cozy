@@ -1,0 +1,131 @@
+/* * {
+  border: 1px solid red !important;
+} */
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  background-color: black;
+}
+
+#tea-cozy-logo {
+  height: 50px;
+  margin: 5px 10px;
+}
+
+#navigation li{
+list-style: none;
+text-decoration: underline;
+display: inline-block;
+margin-right: 10px;
+padding: 0 15px;
+}
+
+#navigation li a {
+  text-decoration: none;
+  color: seashell;
+}
+
+.mission-container {
+  background-image: url(../images/img-mission-background.jpg);
+  background-position: center;
+  justify-content: center;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.mission-container-text{
+  background-color: black;
+  width: 1200px;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.mission-container h2, h4 {
+  padding: 0px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.tea-of-the-month {
+  width: 1000px;
+  margin: 100px auto;
+}
+
+.tea-of-the-month h2, h4 {
+  margin: 20px;
+}
+
+.figures-container {
+  display: inline-block;
+}
+
+.figures-container img {
+  width: 300px;
+  height: 200px;
+  margin: 0 10px;
+}
+
+.figures-container p {
+  margin-top: 10px;
+}
+
+.location-container {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  
+}
+
+.location-container h2 {
+  padding-top: 70px;
+  font-weight: bold;
+}
+
+.sub-location-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.location-container-box {
+  background-color: black;
+  border-radius: 20px;
+  opacity: 0.7;
+  width: 300px;
+  margin: 0 40px;
+}
+
+.tea-cozy-container {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
+
+#navigation li a:hover {
+  color: lightgrey;
+}
